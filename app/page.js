@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div>
-      <div className="container hero-section mt-2 overflow-hidden">
+      <div className="max-w-screen-2xl mx-auto hero-section mt-2 overflow-hidden">
       <video src="/bg-desktop.mp4" autoPlay loop muted className="" />
         <div className="hero-overlay"></div>
       </div>

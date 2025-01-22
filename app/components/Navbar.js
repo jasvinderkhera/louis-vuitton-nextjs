@@ -10,7 +10,7 @@ import wishlist from '../../public/heart.png'
 function Navbar() {
     return (
         <div className='fixed top-0 bg-white z-10 w-full'>
-            <div className="container border-b-2 flex justify-between items-center px-12 py-8">
+            <div className="max-w-screen-2xl mx-auto border-b-2 flex justify-between items-center px-12 py-8">
                 <div className="menu flex items-center gap-5">
                     <Image src={menu} alt='menu icon' height={24}/>
                     <p className='text-xs'>Menu</p>
